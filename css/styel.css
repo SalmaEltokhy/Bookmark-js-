@@ -1,0 +1,128 @@
+::selection {
+    background-color: #fec260;
+    color: #352e28;
+  }
+
+
+main{
+    min-height: 100vh;
+    background-color: #F7ECDE;;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    color: #352e28;
+    z-index: 4;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+       
+    
+}
+
+
+h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+
+    
+}
+h1:hover::before{
+    height: 50%;
+}
+h2{
+    font-family:  cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right,#3ca55c,#b5ac49);
+   background-clip: text;
+   color: transparent;
+   font-weight: 500;
+ 
+}
+
+.bookmark-border{
+    border-style: dotted;
+    border-color: #352e28;
+    border-width: 2px 0 2px 0;
+}
+.form-control:focus{
+    color:#212529 ;
+    background-color: #fff;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+    border-color: #d99c39;
+}
+
+
+.btn-visit{
+    color: #fff;
+    border-color: #9eb23b;
+    background-color: #9eb23b;
+}
+.btn-visit:hover{
+    border-color: #9eb23b;
+    background-color: #8a9e23;
+    color: #fff;
+}
+.btn-delet{
+    color: #fff;
+    background-color: #eb1d36;
+    border-color: #eb1d36;
+}
+.btn-delet:hover{
+    background-color: #d30820;
+    color: #fff;
+    border-color: #eb1d36;
+}
+main .box-conent{
+    width: 500px;
+    z-index: 10px;
+}
+
+.box-conent p {
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+}
+
+main .box-info{
+    background-color: #0007;
+}
+
+main .circles span{
+    width: 20px;
+    height: 20px;
+   
+}
+.circles span:nth-child(1){
+    background-color:#f15f5d ;
+}
+.circles span:nth-child(2){
+    background-color: #febe2e;
+}
+.circles span:nth-child(3){
+    background-color: #4db748;
+}
+main .rules li{
+    font-size: 18px;
+    padding-top: 10px;
+    color:rgb(33, 37, 41);
+    font-weight: 400;
+}
+main .rules i{
+    color: #bb4120;
+}
+main .styel{
+    font-family:"Bree Serif", serif ;
+    font-size: 21px;
+    color: #352e28;
+    line-height: 1.3;
+}
